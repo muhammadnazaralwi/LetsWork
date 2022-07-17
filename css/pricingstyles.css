@@ -116,12 +116,6 @@ a {
     color: inherit;
 }
 
-a:hover,
-a:focus {
-    text-decoration: none !important;
-    color: inherit !important;
-}
-
 ul {
     margin: 0px;
     padding: 0px;
@@ -274,10 +268,26 @@ ul {
 }
 
 .pricing-table-3 .view-more {
-    margin: 10px 20px;
+    margin: 30px 20px;
     display: block;
     text-align: center;
-    background-color: #212121;
+    background-color: #ffc800;
+    border-color: #ffc800;
     padding: 10px 0px;
+    text-decoration: none;
     color: #FFF;
+    border-radius: 8px;
+}
+
+.pricing-table-3 .view-more:hover {
+    color: #fff;
+    background-color: #d9aa00;
+    border-color: #cca000;
+}
+
+.pricing-table-3 .view-more:focus {
+    color: #fff;
+    background-color: #d9aa00;
+    border-color: #cca000;
+    box-shadow: 0 0 0 0.25rem rgba(255, 208, 38, 0.5);
 }
