@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="assets/logo.png" width="400" max-width="90%" alt="LetsWork" />
+    <img src="assets/logo.png" width="150" max-width="40%" alt="LetsWork" />
 </p>
 
 <p align="center">
